@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Geek</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="Logo Tienda">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="libros.html">Libros</a></li>
+                <li><a href="geek.html">Geek</a></li>
+                <li><a href="mistery moments.html">Inicio</a></li>
+                <li><a href="#">Términos y Condiciones</a></li>
+            </ul>
+        </nav>
+        <div class="search">
+            <input type="text" placeholder="Buscar productos...">
+            <button>🔍</button>
+        </div>
+        <div class="cart">
+            <button id="cart-btn">🛒 <span id="cart-count">0</span></button>
+            <div id="cart-dropdown" class="cart-dropdown">
+                <h3>Carrito</h3>
+                <ul id="cart-items"></ul>
+                <button id="checkout-btn">Finalizar Compra</button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="product-grid">
+            <article class="product">
+                <img src="producto1.jpg" alt="Nintendo Switch">
+                <h3>tv</h3>
+                <p>$248.33 mensuales</p>
+                <button class="add-to-cart" data-name="Nintendo Switch" data-price="248.33">Agregar al carrito</button>
+            </article>
+            
+            <article class="product">
+                <img src="producto2.jpg" alt="Minecraft">
+                <h3>Minecraft</h3>
+                <p>$248.33 mensuales</p>
+                <button class="add-to-cart" data-name="Minecraft" data-price="248.33">Agregar al carrito</button>
+            </article>
+
+            <article class="product">
+                <img src="producto3.jpg" alt="Consolas Retro">
+                <h3>Consolas Retro</h3>
+                <p>$248.33 mensuales</p>
+                <button class="add-to-cart" data-name="Consolas Retro" data-price="248.33">Agregar al carrito</button>
+            </article>
+
+            <article class="product">
+                <img src="producto4.jpg" alt="Consolas Retro">
+                <h3>Consolas Retro</h3>
+                <p>$248.33 mensuales</p>
+                <button class="add-to-cart" data-name="Consolas Retro" data-price="248.33">Agregar al carrito</button>
+            </article>
+        </section>
+        <section class="product-grid">
+            <article class="product">
+                <img src="producto1.jpg" alt="Nintendo Switch">
+                <h3>Nintendo Switch</h3>
+                <p>$248.33 mensuales</p>
+                <button class="add-to-cart" data-name="Nintendo Switch" data-price="248.33">Agregar al carrito</button>
+            </article>
+            
+            <article class="product">
+                <img src="producto2.jpg" alt="Minecraft">
+                <h3>Minecraft</h3>
+                <p>$248.33 mensuales</p>
+                <button class="add-to-cart" data-name="Minecraft" data-price="248.33">Agregar al carrito</button>
+            </article>
+
+            <article class="product">
+                <img src="producto3.jpg" alt="Consolas Retro">
+                <h3>Consolas Retro</h3>
+                <p>$248.33 mensuales</p>
+                <button class="add-to-cart" data-name="Consolas Retro" data-price="248.33">Agregar al carrito</button>
+            </article>
+
+            <article class="product">
+                <img src="producto4.jpg" alt="Consolas Retro">
+                <h3>Consolas Retro</h3>
+                <p>$248.33 mensuales</p>
+                <button class="add-to-cart" data-name="Consolas Retro" data-price="248.33">Agregar al carrito</button>
+            </article>
+        </section>
+        
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Página Geek - Todos los derechos reservados</p>
+    </footer>
+
+    <script src="js.js"></script>
+</body>
+</html>
